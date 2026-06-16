@@ -30,8 +30,7 @@ class Student{
     public void TotalStudent(int sCount, int hCount, int cCount){
         int totalCount=(sCount+hCount+cCount);
         System.out.println("Total Students: "+totalCount);
-    }
-    
+    }   
 }
 public class Details{
     public static void main(String []args){
