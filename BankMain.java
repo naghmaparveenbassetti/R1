@@ -4,7 +4,7 @@ abstract class Bank{
     int rate;
 }
 class Deposits extends Bank{
-    void totalAmount(double amt, int t, int r){//override
+    void totalAmount(double amt, int t, int r){
         this.amount=amt;
         this.time=t;
         this.rate=r;
